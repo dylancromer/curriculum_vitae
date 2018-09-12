@@ -1,0 +1,7 @@
+#
+*.aux
+to-do
+*.bcf
+*.log
+*.xml
+*.out
