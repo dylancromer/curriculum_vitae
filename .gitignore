@@ -1,4 +1,5 @@
 #
+*.swp
 *.aux
 to-do
 *.bcf
