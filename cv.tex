@@ -1,6 +1,6 @@
 \RequirePackage[l2tabu, orthodox]{nag}
 
-\documentclass[a4paper, 11pt]{article}
+\documentclass[letterpaper, 11pt]{article}
 
 \usepackage{microtype} % Slightly tweak font spacing for aesthetics
 %\usepackage{gfsdidot}
@@ -12,10 +12,12 @@
 \usepackage{graphicx}
 \usepackage{csquotes}
 \usepackage{enumitem}
-\usepackage[a4paper, margin=1.in]{geometry}
+\usepackage[letterpaper, margin=1.in]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage{float}
 \usepackage{changepage} 
+\usepackage{hyperref}
+\usepackage[hyphenbreaks]{breakurl}
 \usepackage[
 giveninits=true,
 doi=false,
@@ -41,9 +43,10 @@ citestyle=phys,
 
 \begin{document}
 
-\begin{center} 
+\begin{center}
 \textbf{Dylan Cromer} 
 \\
+\vspace{1.3em}
 \myrule
 \end{center}
 
@@ -87,10 +90,8 @@ university email: \texttt{dmc396@cornell.edu} \hfill
 	\item UNC Asheville Mathematics Department Parsons Scholarship \hfill 2016--2017 academic year
 
 	\item North Carolina Space Grant Research Scholarship \hfill Summer 2015 
-	Awarded for fast radio burst research project
 
 	\item UNC-Asheville Physics Department research stipend \hfill Summer 2014
-	Awarded for fast radio burst research project.
 
 	\item North Carolina Space Grant Student Scholarship \hfill 2014--2015 academic year
 
@@ -100,22 +101,21 @@ university email: \texttt{dmc396@cornell.edu} \hfill
 
 \noi \textbf{Submitted Articles}
 
-\noi Dylan Cromer, Nicholas Battaglia, and Mathew Madhavacheril. "Improving Constraints on Fundamental Physics Parameters with the Clustering of Sunyaev-Zeldovich Selected Galaxy Clusters"
+\noi Dylan Cromer, Nicholas Battaglia, and Mathew Madhavacheril. \emph{Improving Constraints on Fundamental Physics Parameters with the Clustering of Sunyaev-Zeldovich Selected Galaxy Clusters},
 \\
-	\ind \emph{ArXiv e-print}, 1903.00976}
+\ind ArXiv e-print, March 2019, \href{https://arxiv.org/abs/1903.00976}{1903.00976}.
+\\
 
 \noi \textbf{Published Articles}
-\\
 
-\noi Dylan Cromer. "Surface Enhancement in Ferroelectric Lithographic Silver Nanowires", 
+\noi Dylan Cromer. \emph{Surface Enhancement in Ferroelectric Lithographic Silver Nanowires}, 
 \\
-	\ind \emph{National Conferences on Undergraduate Research 2016 Proceedings}, 1055--1063.
+	\ind National Conferences on Undergraduate Research 2016 Proceedings, 1055--1063.
 \\
 
 \noi \textbf{Presentations}
 \\
 \emph{(Repeated presentations have been ommitted)}
-\\
 
 \noi Presented talk "Fast Radio Bursts - Mysterious Flashes From Other Galaxies, or Our Own?", Sparks Lecture Series seminar, UNC-Asheville, Asheville, NC, February 2017.
 \\
@@ -149,7 +149,6 @@ Ferroelectric Lithographic Nanowires", UNC-Asheville Undergraduate Research Symp
 \\
 
 \noi \textbf{Scientific Outreach}
-\\
 
 \noi Volunteer, Alien Worlds workshop, Cornell University Expanding Your Horizons program \hfill April 2018
 \\
@@ -182,10 +181,14 @@ Ferroelectric Lithographic Nanowires", UNC-Asheville Undergraduate Research Symp
 \\
 
 \noi \textbf{Media}
+
+\noi \emph{Starry nights: Lookout Observatory welcomes students and residents}, The Blue Banner.
+\begin{sloppypar}
+\noi \burl{thebluebanner.net/starrynights-lookout-observatory-welcomes-students-and-residents}
 \\
+\end{sloppypar}
 
 \noi \textbf{Academic Organizations}
-\\
 
 \noi Society of Physics Students. Outreach coordinator for UNC-Asheville Chapter.
 \\
@@ -197,7 +200,6 @@ Ferroelectric Lithographic Nanowires", UNC-Asheville Undergraduate Research Symp
 \\
 
 \noi \textbf{Teaching}
-\\
 
 \noi Math Tutor at UNC-Asheville Math Assistance Center \hfill September 2016 -- May 2017
 \\
